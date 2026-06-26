@@ -95,7 +95,7 @@ if (bookingForm) {
     submitSpinner.classList.remove('hidden');
 
     // Target email for form submissions
-    const targetEmail = "info@cdh-hamburg.de";
+    const targetEmail = "Cdh-hamburg.de";
 
     fetch(`https://formsubmit.co/ajax/${targetEmail}`, {
       method: "POST",
