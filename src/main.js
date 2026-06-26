@@ -94,8 +94,8 @@ if (bookingForm) {
     btnText.innerText = "SENDET...";
     submitSpinner.classList.remove('hidden');
 
-    // We use the specified test email
-    const targetEmail = "efesahin38@hotmail.com";
+    // Target email for form submissions
+    const targetEmail = "info@cdh-hamburg.de";
 
     fetch(`https://formsubmit.co/ajax/${targetEmail}`, {
       method: "POST",
