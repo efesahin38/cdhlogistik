@@ -675,7 +675,10 @@ footer {
   .nav-links, .desktop-only { display: none !important; }
   .hamburger { display: block; }
   
-  .hero { padding: 0 30px; }
+  .hero { 
+    padding: 0 30px; 
+    background-attachment: scroll;
+  }
   .hero-content h1 { font-size: 40px; }
   .hero-content p { font-size: 16px; }
   
