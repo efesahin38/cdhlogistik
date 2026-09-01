@@ -606,12 +606,12 @@ footer {
   color: #555;
 }
 
-/* WhatsApp Button */
-.whatsapp-btn {
+/* Phone Button */
+.phone-btn {
   position: fixed;
   bottom: 40px;
   right: 40px;
-  background-color: #25d366;
+  background-color: #28a745;
   color: white;
   width: 60px;
   height: 60px;
@@ -620,15 +620,15 @@ footer {
   justify-content: center;
   align-items: center;
   font-size: 30px;
-  box-shadow: 0 4px 20px rgba(37, 211, 102, 0.5);
+  box-shadow: 0 4px 20px rgba(40, 167, 69, 0.5);
   z-index: 1000;
   transition: var(--transition);
   text-decoration: none;
 }
 
-.whatsapp-btn:hover {
+.phone-btn:hover {
   transform: scale(1.1);
-  box-shadow: 0 6px 25px rgba(37, 211, 102, 0.6);
+  box-shadow: 0 6px 25px rgba(40, 167, 69, 0.6);
 }
 
 /* Animations */
