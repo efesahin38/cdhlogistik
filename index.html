@@ -1,13 +1,394 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="de">
+
 <head>
-    <meta charset="UTF-8">
-    <title>CDH Container Depot Hamburg</title>
-    <!-- Redirect to startseite.html -->
-    <meta http-equiv="refresh" content="0; url=./startseite.html" />
-    <script>window.location.replace("./startseite.html");</script>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="theme-color" content="#102A43" />
+  <title>CDH Container Depot Hamburg</title>
+  <meta name="description"
+    content="CDH Container Depot Hamburg: sichere Containerlagerung und professionelles Handling im Hamburger Hafen. Senden Sie uns Ihre Anfrage." />
+  <link rel="canonical" href="https://cdh-hamburg.de/" />
+  <link rel="preload" as="image" href="./assets/cdh-home-hero-1920x1080.webp" fetchpriority="high" />
+  <link rel="icon" type="image/png" sizes="128x128" href="./assets/cdh-favicon.png?v=2" />
+  <link rel="apple-touch-icon" href="./assets/cdh-favicon.png?v=2" />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://cdh-hamburg.de/" />
+  <meta property="og:title" content="CDH Container Depot Hamburg" />
+  <meta property="og:description"
+    content="Sichere Containerlagerung und professionelles Handling im Hamburger Hafen." />
+  <meta property="og:image" content="https://cdh-hamburg.de/bg2.png" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="./assets/cdh-site.css" />
+  <link rel="stylesheet" href="./assets/cdh-site-visual.css" />
+  <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "LocalBusiness",
+        "name": "CDH Container Depot Hamburg GmbH",
+        "url": "https://cdh-hamburg.de/",
+        "email": "info@cdh-hamburg.de",
+        "telephone": "+49 40 30089700",
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "Industriestraße 107",
+          "postalCode": "21107",
+          "addressLocality": "Hamburg",
+          "addressCountry": "DE"
+        }
+      }
+    </script>
+  <script src="./assets/cdh-i18n.js" defer></script>
+  <script src="./assets/cdh-site.js" defer></script>
+  <script src="./assets/about-video.js" defer></script>
+  <script src="./assets/cdh-router.js" defer></script>
 </head>
-<body>
-    <p>Leite weiter zu <a href="./startseite.html">Startseite</a>...</p>
+
+<body class="home-page">
+  <header class="site-header" id="top">
+    <a class="brand" href="#home" aria-label="CDH Container Depot Hamburg – Startseite">
+      <img src="./logo_transparent.png" alt="" width="58" height="58" />
+      <span class="brand-copy"><strong>Container Depot</strong><small>Hamburg</small></span>
+    </a>
+    <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="primary-navigation"
+      aria-label="Menü öffnen">
+      <span></span><span></span>
+    </button>
+    <nav class="primary-navigation" id="primary-navigation" aria-label="Hauptnavigation">
+      <a href="#home">Start</a>
+      <a href="#leistungen">Leistungen</a>
+      <a href="#ueber-uns">Über uns</a>
+      <a href="#standort">Standort</a>
+      <a href="#booking">Kontakt</a>
+      <details class="language-switcher">
+        <summary aria-label="Sprache auswählen"><span class="language-current"><span data-language-flag
+              aria-hidden="true">🇩🇪</span> <span data-language-code>DE</span></span><span class="language-chevron"
+            aria-hidden="true"></span></summary>
+        <div class="language-menu" aria-label="Sprachen">
+          <button type="button" data-locale="de" aria-current="page"><span
+              aria-hidden="true">🇩🇪</span><span>Deutsch</span></button>
+          <button type="button" data-locale="en"><span aria-hidden="true">🇬🇧</span><span>English</span></button>
+          <button type="button" data-locale="tr"><span aria-hidden="true">🇹🇷</span><span>Türkçe</span></button>
+        </div>
+      </details>
+      <a class="button button-nav" href="#booking">Container buchen</a>
+    </nav>
+  </header>
+  <button class="nav-backdrop" type="button" aria-label="Menü schließen" tabindex="-1"></button>
+
+  <main>
+    <section class="hero" id="home" aria-labelledby="hero-title">
+      <div class="hero-wash" aria-hidden="true"></div>
+      <div class="hero-inner">
+        <p class="eyebrow" data-hero-enter="1"><span class="eyebrow-mark"></span> IHR CONTAINERDEPOT IN HAMBURG</p>
+        <h1 id="hero-title" data-hero-enter="2">CDH<br /><span>Container<br />Depot<br />Hamburg</span></h1>
+        <p class="hero-lead" data-hero-enter="3">Ihr zuverlässiger Partner für sichere Containerlagerung und
+          intelligente Abläufe im Herzen von Hamburg.</p>
+        <div class="hero-actions" data-hero-enter="4">
+          <a class="button button-primary" href="#booking">Anfrage stellen</a>
+        </div>
+      </div>
+      <section class="benefit-strip" id="vorteile" aria-label="Ihre Vorteile">
+        <div class="benefit-grid">
+          <article class="benefit-item" data-reveal>
+            <span class="line-icon" aria-hidden="true"><svg viewBox="0 0 32 32">
+                <path d="M16 3 27 7v8c0 7-4.8 11.8-11 14C9.8 26.8 5 22 5 15V7l11-4Z" />
+                <path d="m11 16 3.2 3.2L21.5 12" />
+              </svg></span>
+            <div>
+              <h2>Sichere Lagerung</h2>
+              <p>Sichere und flexible Einlagerung von Leer- und Vollcontainern.</p>
+            </div>
+          </article>
+          <article class="benefit-item" data-reveal>
+            <span class="line-icon" aria-hidden="true"><svg viewBox="0 0 32 32">
+                <path d="M4 25h24M7 25V9h13v16M20 14h5l3 4v7M10 13h7M10 17h7" />
+                <circle cx="11" cy="25" r="2.5" />
+                <circle cx="24" cy="25" r="2.5" />
+              </svg></span>
+            <div>
+          <h2>Flexible Stellzeiten</h2>
+              <p>Verlässlich und unkompliziert organisiert.</p>
+            </div>
+          </article>
+          <article class="benefit-item" data-reveal>
+            <span class="line-icon" aria-hidden="true"><svg viewBox="0 0 32 32">
+                <path d="M5 26h22M8 26V8h16v18M12 12h8M12 16h8M12 20h8" />
+                <path d="M3 5h7M22 5h7M6.5 2v6M25.5 2v6" />
+              </svg></span>
+            <div>
+              <h2>Zentrale Lage</h2>
+              <p>Direkt im Hamburger Hafen.</p>
+            </div>
+          </article>
+        </div>
+      </section>
+      <svg class="hero-bottom-accent" viewBox="0 0 1680 160" preserveAspectRatio="none" aria-hidden="true"
+        focusable="false">
+        <defs>
+          <linearGradient id="hero-ribbon-fill" x1="0" y1="0" x2="0" y2="1">
+            <stop offset="0" stop-color="#6f0b15" stop-opacity=".96" />
+            <stop offset=".55" stop-color="#360b13" stop-opacity=".96" />
+            <stop offset="1" stop-color="#160b13" stop-opacity=".98" />
+          </linearGradient>
+        </defs>
+        <path class="hero-ribbon-fill" d="M0 132 C520 170 1120 92 1680 48 L1680 160 L0 160 Z" />
+        <path class="hero-ribbon-highlight" d="M0 132 C520 170 1120 92 1680 48" />
+        <path class="hero-ribbon-runner" pathLength="1000" d="M0 132 C520 170 1120 92 1680 48" />
+        <path class="hero-ribbon-edge" d="M0 157 C520 170 1120 142 1680 120" />
+      </svg>
+    </section>
+
+    <section class="section section-about" id="ueber-uns" aria-labelledby="about-title">
+      <div class="section-shell about-layout">
+        <div class="about-copy" data-reveal>
+          <p class="section-kicker"><span>01</span> ÜBER CDH</p>
+          <h2 id="about-title">Wer wir <span>sind</span></h2>
+          <div class="red-rule"></div>
+          <div class="about-copy-text">
+            <p class="about-welcome">Willkommen bei CDH Container Depot Hamburg</p>
+            <p>Wir sind Ihr zuverlässiger Partner für die sichere und professionelle Lagerung von Seecontainern in
+              Hamburg.</p>
+            <p>Mit unserer langjährigen Erfahrung wissen wir, worauf es bei einer sicheren Containerlagerung ankommt.
+              Bei CDH bieten wir Ihnen zuverlässige Stellflächen, auf denen Sie Ihre Container unkompliziert abstellen
+              und sicher verwahren lassen können.</p>
+            <p><strong>Sicherheit steht bei uns an erster Stelle.</strong> Unser Depot wird durch moderne
+              Videoüberwachung kontrolliert und von unseren Mitarbeitern vor Ort betreut. So behalten wir Ihr Eigentum
+              stets im Blick und sorgen für ein hohes Maß an Sicherheit und Zuverlässigkeit.</p>
+            <p>Ob für kurze oder längere Zeit – bei uns finden Ihre Container einen sicheren Stellplatz. Wir kümmern uns
+              um eine zuverlässige Unterbringung, damit Sie sich auf Ihr Kerngeschäft konzentrieren können.</p>
+            <p class="about-promise"><strong>CDH Container Depot Hamburg – Ihr Container. Sicher abgestellt. Gut
+                aufgehoben.</strong></p>
+          </div>
+        </div>
+        <figure class="about-visual" data-reveal>
+          <video id="about-video" src="./video.mov" poster="./Container%20Depot%20with%20Centred%20CDH%20Logos.png"
+            autoplay muted loop playsinline preload="auto" disablepictureinpicture
+            controlslist="nodownload noplaybackrate noremoteplayback"
+            aria-label="Reachstacker bewegt einen Container im CDH Depot"></video>
+          <figcaption><span>CDH</span><span>CONTAINERLÖSUNGEN IN HAMBURG</span></figcaption>
+        </figure>
+      </div>
+
+      <div class="section-shell service-principles" aria-label="CDH in Zahlen">
+        <article><span class="stats-icon" aria-hidden="true">▦</span>
+          <div><strong>15+</strong><span>Jahre Erfahrung</span></div>
+        </article>
+        <article><span class="stats-icon" aria-hidden="true">⬡</span>
+          <div><strong>5.000+</strong><span>Stellplätze</span></div>
+        </article>
+        <article><span class="stats-icon" aria-hidden="true">◷</span>
+          <div><strong>24/7</strong><span>Überwachung</span></div>
+        </article>
+        <article><span class="stats-icon" aria-hidden="true">✓</span>
+          <div><strong>100%</strong><span>Zuverlässigkeit</span></div>
+        </article>
+      </div>
+    </section>
+
+    <section class="section section-services" id="leistungen" aria-labelledby="services-title">
+      <div class="section-shell">
+        <div class="section-heading section-heading-light">
+          <div>
+            <p class="section-kicker"><span>02</span> UNSERE LEISTUNGEN</p>
+            <h2 id="services-title">Professionelle <span
+                class="service-title-second">Container<span>Lösungen</span></span></h2>
+          </div>
+          <p>Effiziente, sichere und flexible Services rund um Ihre Container – direkt in Hamburg.</p>
+          <a class="button button-primary service-main-cta" href="#booking">Unsere Leistungen<span
+              aria-hidden="true">→</span></a>
+        </div>
+        <div class="services-grid">
+          <article class="service-card" data-reveal>
+            <div class="service-photo-frame"><img class="service-photo" src="./Industrial%20CDH%20Container%20Yard.png"
+                alt="Blaue CDH-Container auf dem Depotgelände" loading="lazy" /></div>
+            <div class="service-card-content">
+              <div class="service-card-top"><span class="service-number">01</span><span class="service-accent-line"
+                  aria-hidden="true"></span></div>
+              <h3>Containerlagerung</h3>
+              <p>Sichere und flexible Einlagerung von Leer- und Vollcontainern auf unserem Depotgelände.</p>
+              <p class="service-specs">
+                <span class="spec-item"><svg viewBox="0 0 20 20" aria-hidden="true">
+                    <path d="M2.5 7 10 3l7.5 4v10h-15zM2.5 7h15M7 7v10m6-10v10" />
+                  </svg>Lagerflächen</span>
+                <i aria-hidden="true"></i>
+                <span class="spec-item"><svg viewBox="0 0 20 20" aria-hidden="true">
+                    <path d="M3 5h14M3 15h14M5 3v4m10-4v4m-10 4v6m10-6v6" />
+                  </svg>20 ft / 40 ft / 45 ft</span>
+              </p>
+            </div>
+          </article>
+          <article class="service-card" data-reveal>
+            <div class="service-photo-frame"><img class="service-photo" src="./Secure CDH Container Yard.png"
+                alt="CDH-Containerdepot mit Lagerfläche und Fahrzeugen" loading="lazy" /></div>
+            <div class="service-card-content">
+              <div class="service-card-top"><span class="service-number">02</span><span class="service-accent-line"
+                  aria-hidden="true"></span></div>
+              <h3>Sicherheit &amp; Überwachung</h3>
+              <p>Ihr Eigentum stets im Blick. Moderne Videoüberwachung und Mitarbeiter vor Ort sorgen für ein hohes Maß
+                an Sicherheit.</p>
+              <p class="service-specs">
+                <span class="spec-item"><svg viewBox="0 0 20 20" aria-hidden="true">
+                    <path
+                      d="M2.5 6.5h3l1.4-2h5.2l1.4 2h3A1.5 1.5 0 0 1 18 8v7a1.5 1.5 0 0 1-1.5 1.5h-14A1.5 1.5 0 0 1 1 15V8a1.5 1.5 0 0 1 1.5-1.5Z" />
+                    <circle cx="10" cy="11" r="3" />
+                  </svg>Videoüberwachung</span>
+                <i aria-hidden="true"></i>
+                <span class="spec-item"><svg viewBox="0 0 20 20" aria-hidden="true">
+                    <path d="M10 2.2 17 5v4.8c0 4.1-2.8 6.8-7 8.6-4.2-1.8-7-4.5-7-8.6V5l7-2.8Z" />
+                    <circle cx="10" cy="8" r="1.7" />
+                    <path d="M6.8 13.4c.7-1.6 1.8-2.4 3.2-2.4s2.5.8 3.2 2.4" />
+                  </svg>Mitarbeiter vor Ort</span>
+              </p>
+            </div>
+          </article>
+        </div>
+      </div>
+      <div class="service-benefits-strip" aria-label="Ihre Vorteile">
+        <article><svg viewBox="0 0 48 48" aria-hidden="true">
+            <path d="M24 4 40 10v12c0 10-6.8 17-16 22C14.8 39 8 32 8 22V10l16-6Z" />
+            <path d="m17 23 5 5 10-11" />
+          </svg><span>Sicher &amp; zuverlässig</span></article>
+        <article><svg viewBox="0 0 48 48" aria-hidden="true">
+            <path d="M6 36a18 18 0 0 1 36 0M24 28l10-10M11 36h26" />
+            <circle cx="24" cy="36" r="3" />
+          </svg><span>Effiziente Abläufe</span></article>
+        <article><svg viewBox="0 0 48 48" aria-hidden="true">
+            <path d="M24 43s15-15.2 15-25A15 15 0 1 0 9 18c0 9.8 15 25 15 25Z" />
+            <circle cx="24" cy="18" r="5" />
+          </svg><span>Direkt im Hafen Hamburg</span></article>
+      </div>
+    </section>
+
+    <section class="section section-location contact-section" id="standort" aria-labelledby="location-title">
+      <div class="section-shell contact-layout">
+        <div class="location-layout">
+          <div class="location-copy" data-reveal>
+            <p class="section-kicker"><span>03</span> UNSER STANDORT</p>
+            <h2 id="location-title">Zentral im Hamburger Hafen</h2>
+            <div class="red-rule"></div>
+            <p>Unser Containerdepot ist optimal angebunden und schnell erreichbar – direkt im Herzen des Hamburger
+              Hafens.</p>
+            <address>Industriestraße 107<br />21107 Hamburg<br />Deutschland</address>
+            <a class="button button-primary"
+              href="https://www.google.com/maps/dir/?api=1&amp;destination=Industriestra%C3%9Fe+107%2C+21107+Hamburg"
+              target="_blank" rel="noopener noreferrer">Route berechnen</a>
+            <div class="location-contact"><a href="tel:+494030089700">+49 40 30089700</a><a
+                href="mailto:info@cdh-hamburg.de">info@cdh-hamburg.de</a></div>
+          </div>
+          <div class="map-frame" data-reveal data-scroll-depth="7">
+            <iframe title="Karte: CDH Container Depot Hamburg, Industriestraße 107"
+              src="https://maps.google.com/maps?q=Industriestra%C3%9Fe%20107%2C%2021107%20Hamburg%2C%20Deutschland&amp;t=&amp;z=15&amp;ie=UTF8&amp;iwloc=&amp;output=embed"
+              loading="lazy" referrerpolicy="no-referrer-when-downgrade" allowfullscreen></iframe>
+            <span class="map-label"><span class="map-dot"></span> CDH · HAMBURG</span>
+          </div>
+        </div>
+        <div class="section-booking" id="booking" aria-labelledby="booking-title">
+          <div class="booking-layout">
+            <div class="booking-intro" data-reveal>
+              <p class="section-kicker section-kicker-light"><span>04</span> KONTAKT</p>
+              <h2 id="booking-title">Container Buchungsanfrage</h2>
+              <p>Füllen Sie das Formular aus, um eine Anfrage zu senden. Wir bearbeiten Ihre Anfrage umgehend.</p>
+              <div class="booking-direct"><a href="tel:+494030089700"><span>TELEFON</span>+49 40 30089700</a><a
+                  href="mailto:info@cdh-hamburg.de"><span>E-MAIL</span>info@cdh-hamburg.de</a></div>
+            </div>
+            <div class="form-panel" data-reveal>
+              <div class="form-panel-heading"><span>IHRE ANFRAGE</span>
+              </div>
+              <div class="form-message" id="formMessage" role="status" aria-live="polite" hidden></div>
+              <form id="bookingForm" action="https://formsubmit.co/ajax/info@cdh-hamburg.de" method="POST">
+                <input type="hidden" name="_subject" value="Neue Containeranfrage – CDH Website" />
+                <input type="hidden" name="_template" value="table" />
+                <div class="honeypot" aria-hidden="true"><label for="_honey">Dieses Feld leer lassen</label><input
+                    id="_honey" type="text" name="_honey" tabindex="-1" autocomplete="off" /></div>
+                <div class="form-grid">
+                  <div class="form-field form-field-wide"><label for="companyName">Firmenname
+                      <span>*</span></label><input id="companyName" name="Firma" autocomplete="organization" required />
+                  </div>
+                  <div class="form-field"><label for="firstName">Vorname <span>*</span></label><input id="firstName"
+                      name="Vorname" autocomplete="given-name" required /></div>
+                  <div class="form-field"><label for="lastName">Nachname <span>*</span></label><input id="lastName"
+                      name="Nachname" autocomplete="family-name" required /></div>
+                  <div class="form-field"><label for="email">E-Mail-Adresse <span>*</span></label><input id="email"
+                      name="Email" type="email" autocomplete="email" required /></div>
+                  <div class="form-field"><label for="phone">Telefon <small>optional</small></label><input id="phone"
+                      name="Telefon" type="tel" autocomplete="tel" /></div>
+                  <fieldset class="form-field form-field-wide container-size-field">
+                    <legend>Containergröße <span>*</span></legend>
+                    <div class="container-choices">
+                      <label class="container-option"><input type="radio" name="Containergroesse" value="20 ft"
+                          required /><span class="container-choice"><svg viewBox="0 0 48 32" aria-hidden="true">
+                            <path d="M3 7h42v20H3zM8 11v12m7-12v12m7-12v12m7-12v12m7-12v12m7-12v12" />
+                          </svg><strong>20 ft</strong><small>Kompakt</small></span></label>
+                      <label class="container-option"><input type="radio" name="Containergroesse" value="40 ft"
+                          required /><span class="container-choice"><svg viewBox="0 0 48 32" aria-hidden="true">
+                            <path d="M2 7h44v20H2zM7 11v12m7-12v12m7-12v12m7-12v12m7-12v12m7-12v12" />
+                          </svg><strong>40 ft</strong><small>Standard</small></span></label>
+                      <label class="container-option"><input type="radio" name="Containergroesse" value="45 ft"
+                          required /><span class="container-choice"><svg viewBox="0 0 48 32" aria-hidden="true">
+                            <path d="M2 7h44v20H2zM7 11v12m7-12v12m7-12v12m7-12v12m7-12v12m7-12v12" />
+                          </svg><strong>45 ft</strong><small>Extra lang</small></span></label>
+                    </div>
+                  </fieldset>
+                  <div class="form-field"><label for="startDate">Von Datum <span>*</span></label><input id="startDate"
+                      name="Von_Datum" type="date" value="" required /></div>
+                  <div class="form-field"><label for="endDate">Bis Datum <span>*</span></label><input id="endDate"
+                      name="Bis_Datum" type="date" value="" required /></div>
+                  <div class="form-field form-field-wide"><label for="message">Nachricht
+                      <small>optional</small></label><textarea id="message" name="Nachricht" rows="4" maxlength="1500"
+                      placeholder="Ergänzende Angaben zu Ihrem Bedarf"></textarea></div>
+                </div>
+                <p class="privacy-note">Mit dem Absenden übermitteln Sie Ihre Angaben zur Bearbeitung der Anfrage.
+                  Hinweise zur Verarbeitung finden Sie in unserer <a href="/"
+                    data-page="datenschutz">Datenschutzerklärung</a>.
+                </p>
+                <button class="button button-primary button-submit" id="submitBtn" type="submit"><span
+                    class="submit-label">Anfrage senden</span><span class="submit-spinner"
+                    aria-hidden="true"></span></button>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="section-shell footer-main">
+      <div class="footer-brand-block">
+        <a class="brand brand-footer" href="#home" aria-label="CDH – zurück zum Anfang"><img
+            src="./logo_transparent.png" alt="" width="54" height="54" /><span class="brand-copy"><strong>Container
+              Depot</strong><small>Hamburg</small></span></a>
+        <p>Ihr Ansprechpartner für sichere Containerlagerung und geschützte Stellflächen in Hamburg.</p>
+      </div>
+      <div class="footer-column">
+        <h2>Navigation</h2><a href="#leistungen">Leistungen</a><a href="#ueber-uns">Über uns</a><a
+          href="#standort">Standort</a>
+      </div>
+      <div class="footer-column">
+        <h2>Leistungen</h2><a href="#leistungen">Containerlagerung</a><a href="#leistungen">Sicherheit &amp;
+          Überwachung</a>
+      </div>
+      <div class="footer-column footer-contact">
+        <h2>Kontakt</h2><a href="mailto:info@cdh-hamburg.de">info@cdh-hamburg.de</a><a href="tel:+494030089700">+49 40
+          30089700</a>
+        <p>Industriestraße 107<br />21107 Hamburg</p>
+      </div>
+    </div>
+    <div class="section-shell footer-bottom"><span>© <span id="currentYear">2026</span> CDH Container Depot Hamburg
+        GmbH</span>
+      <div><a href="/" data-page="impressum">Impressum</a><a href="/" data-page="datenschutz">Datenschutz</a></div>
+    </div>
+  </footer>
+
+  <a class="floating-contact" href="tel:+494030089700" aria-label="CDH telefonisch unter +49 40 30089700 erreichen"><svg
+      viewBox="0 0 24 24" aria-hidden="true">
+      <path
+        d="M6.6 3.8 9.1 3l2 4.8-1.8 1.5a14.8 14.8 0 0 0 5.4 5.4l1.5-1.8 4.8 2-.8 2.5c-.4 1.2-1.7 1.9-2.9 1.6C10 17.2 6.8 14 5 6.7c-.3-1.2.4-2.5 1.6-2.9Z" />
+    </svg></a>
+  <div id="cdh-page-view" class="cdh-page-view" hidden></div>
 </body>
+
 </html>

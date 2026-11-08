@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://cdh-hamburg.de/sitemap.xml
